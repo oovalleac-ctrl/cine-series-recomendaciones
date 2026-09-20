@@ -108,7 +108,7 @@ window.WATCHLIST = [
     "title": "1923",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -126,7 +126,7 @@ window.WATCHLIST = [
     "title": "1944",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -144,7 +144,7 @@ window.WATCHLIST = [
     "title": "Yellowstone",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -162,7 +162,7 @@ window.WATCHLIST = [
     "title": "Y: Marshals",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -179,7 +179,7 @@ window.WATCHLIST = [
     "title": "The Dutton Ranch",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -196,7 +196,7 @@ window.WATCHLIST = [
     "title": "6666",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -214,7 +214,7 @@ window.WATCHLIST = [
     "title": "The Madison",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -231,7 +231,7 @@ window.WATCHLIST = [
     "title": "El dilema de las redes sociales",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -248,7 +248,7 @@ window.WATCHLIST = [
     "title": "La oficina del diablo",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -265,7 +265,7 @@ window.WATCHLIST = [
     "title": "Tierra de los idiotas",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -282,7 +282,7 @@ window.WATCHLIST = [
     "title": "Mal de amores",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -299,7 +299,7 @@ window.WATCHLIST = [
     "title": "Route 187",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -316,7 +316,7 @@ window.WATCHLIST = [
     "title": "The burial",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -333,7 +333,7 @@ window.WATCHLIST = [
     "title": "El milagro del padre stu",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -350,7 +350,7 @@ window.WATCHLIST = [
     "title": "The beast in me",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -367,7 +367,7 @@ window.WATCHLIST = [
     "title": "Hechizo de amor",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -384,7 +384,7 @@ window.WATCHLIST = [
     "title": "The dropout",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -402,7 +402,7 @@ window.WATCHLIST = [
     "title": "You can see everything",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -419,7 +419,7 @@ window.WATCHLIST = [
     "title": "Inocencia salvaje",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -436,7 +436,7 @@ window.WATCHLIST = [
     "title": "Prefiero la muerte",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -453,7 +453,7 @@ window.WATCHLIST = [
     "title": "El rey de las pistas rikuoh",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -470,7 +470,7 @@ window.WATCHLIST = [
     "title": "Rosebush pruning",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -487,7 +487,7 @@ window.WATCHLIST = [
     "title": "Hotel todo incluído",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -504,7 +504,7 @@ window.WATCHLIST = [
     "title": "Blades of the guardian",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -521,7 +521,7 @@ window.WATCHLIST = [
     "title": "Samurai x",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -538,7 +538,7 @@ window.WATCHLIST = [
     "title": "asesinos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -555,7 +555,7 @@ window.WATCHLIST = [
     "title": "El ocaso del samurai",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -572,7 +572,7 @@ window.WATCHLIST = [
     "title": "Nero",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -589,7 +589,7 @@ window.WATCHLIST = [
     "title": "El cielo se equivocó",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -606,7 +606,7 @@ window.WATCHLIST = [
     "title": "Suburra",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -624,7 +624,7 @@ window.WATCHLIST = [
     "title": "Tierra de mafiosos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -641,7 +641,7 @@ window.WATCHLIST = [
     "title": "Tus dos muertos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -658,7 +658,7 @@ window.WATCHLIST = [
     "title": "Don't Say good luck",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -675,7 +675,7 @@ window.WATCHLIST = [
     "title": "Loco México mágico",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -692,7 +692,7 @@ window.WATCHLIST = [
     "title": "bodas y un funeral",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -709,7 +709,7 @@ window.WATCHLIST = [
     "title": "Fortitude",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -726,7 +726,7 @@ window.WATCHLIST = [
     "title": "La comunidad",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -743,7 +743,7 @@ window.WATCHLIST = [
     "title": "The dogs stars",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -760,7 +760,7 @@ window.WATCHLIST = [
     "title": "The witch",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas coreanas / otras"
     ],
     "priority": false,
@@ -778,7 +778,7 @@ window.WATCHLIST = [
     "title": "As bestas",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -796,7 +796,7 @@ window.WATCHLIST = [
     "title": "Will be fine",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -813,7 +813,7 @@ window.WATCHLIST = [
     "title": "El guardian",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -830,7 +830,7 @@ window.WATCHLIST = [
     "title": "Delegacía de homicidios",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -847,7 +847,7 @@ window.WATCHLIST = [
     "title": "Retratos de una obsesión",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -864,7 +864,7 @@ window.WATCHLIST = [
     "title": "Sheep in The box",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -881,7 +881,7 @@ window.WATCHLIST = [
     "title": "Widows bay",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -898,7 +898,7 @@ window.WATCHLIST = [
     "title": "Hope",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Bon Joon hoo",
       "Películas coreanas / otras"
     ],
@@ -917,7 +917,7 @@ window.WATCHLIST = [
     "title": "La última casa",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -934,7 +934,7 @@ window.WATCHLIST = [
     "title": "Colony",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -951,7 +951,7 @@ window.WATCHLIST = [
     "title": "You won't be alone",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -968,7 +968,7 @@ window.WATCHLIST = [
     "title": "Dtf san lois",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -985,7 +985,7 @@ window.WATCHLIST = [
     "title": "The weather man",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1002,7 +1002,7 @@ window.WATCHLIST = [
     "title": "Spider noir",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1019,7 +1019,7 @@ window.WATCHLIST = [
     "title": "Backrooms",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1036,7 +1036,7 @@ window.WATCHLIST = [
     "title": "Tiempo de Victoría",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1053,7 +1053,7 @@ window.WATCHLIST = [
     "title": "Better days",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1070,7 +1070,7 @@ window.WATCHLIST = [
     "title": "Big world",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1087,7 +1087,7 @@ window.WATCHLIST = [
     "title": "Resurrection",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1104,7 +1104,7 @@ window.WATCHLIST = [
     "title": "The boroughs",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1121,7 +1121,7 @@ window.WATCHLIST = [
     "title": "Moving",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1138,7 +1138,7 @@ window.WATCHLIST = [
     "title": "Poeta",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1155,7 +1155,7 @@ window.WATCHLIST = [
     "title": "East of eden",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1172,7 +1172,7 @@ window.WATCHLIST = [
     "title": "Sucesor designado",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1189,7 +1189,7 @@ window.WATCHLIST = [
     "title": "Buen camino",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1206,7 +1206,7 @@ window.WATCHLIST = [
     "title": "Margo está en apuros",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1223,7 +1223,7 @@ window.WATCHLIST = [
     "title": "Una pequeña redención",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1240,7 +1240,7 @@ window.WATCHLIST = [
     "title": "Los no elegidos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1257,7 +1257,7 @@ window.WATCHLIST = [
     "title": "Citadel",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1274,7 +1274,7 @@ window.WATCHLIST = [
     "title": "Homebound",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1291,7 +1291,7 @@ window.WATCHLIST = [
     "title": "El poder de la esperanza",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1308,7 +1308,7 @@ window.WATCHLIST = [
     "title": "Young sherlock y Sherlock",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1325,7 +1325,7 @@ window.WATCHLIST = [
     "title": "Takedown",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1342,7 +1342,7 @@ window.WATCHLIST = [
     "title": "Ronaldinho",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1359,7 +1359,7 @@ window.WATCHLIST = [
     "title": "Dear killer nanies",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1376,7 +1376,7 @@ window.WATCHLIST = [
     "title": "Los domingos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1393,7 +1393,7 @@ window.WATCHLIST = [
     "title": "Paradise",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1410,7 +1410,7 @@ window.WATCHLIST = [
     "title": "Si pudiera",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1427,7 +1427,7 @@ window.WATCHLIST = [
     "title": "Santita",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1444,7 +1444,7 @@ window.WATCHLIST = [
     "title": "Los dueños del juego",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1461,7 +1461,7 @@ window.WATCHLIST = [
     "title": "Amenaza radiactiva",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1478,7 +1478,7 @@ window.WATCHLIST = [
     "title": "El mecanismo",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1495,7 +1495,7 @@ window.WATCHLIST = [
     "title": "Deadwood",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1512,7 +1512,7 @@ window.WATCHLIST = [
     "title": "Nadie",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1529,7 +1529,7 @@ window.WATCHLIST = [
     "title": "Promesas del este",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -1547,7 +1547,7 @@ window.WATCHLIST = [
     "title": "Vladimir",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1564,7 +1564,7 @@ window.WATCHLIST = [
     "title": "La Dolce villa",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1581,7 +1581,7 @@ window.WATCHLIST = [
     "title": "Venganza",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1598,7 +1598,7 @@ window.WATCHLIST = [
     "title": "Ponies",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1615,7 +1615,7 @@ window.WATCHLIST = [
     "title": "The marshalls",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1632,7 +1632,7 @@ window.WATCHLIST = [
     "title": "Belleza perfecta",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1649,7 +1649,7 @@ window.WATCHLIST = [
     "title": "Under the skin",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1666,7 +1666,7 @@ window.WATCHLIST = [
     "title": "Knock at The cabin",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -1684,7 +1684,7 @@ window.WATCHLIST = [
     "title": "Wasabi",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1701,7 +1701,7 @@ window.WATCHLIST = [
     "title": "The Prince of tides",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1718,7 +1718,7 @@ window.WATCHLIST = [
     "title": "No other choice",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Bon Joon hoo"
     ],
     "priority": false,
@@ -1736,7 +1736,7 @@ window.WATCHLIST = [
     "title": "Mr robot",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1753,7 +1753,7 @@ window.WATCHLIST = [
     "title": "Estocolmo",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1770,7 +1770,7 @@ window.WATCHLIST = [
     "title": "Marty supreme",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1787,7 +1787,7 @@ window.WATCHLIST = [
     "title": "The wire",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -1805,7 +1805,7 @@ window.WATCHLIST = [
     "title": "El y ella",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1822,7 +1822,7 @@ window.WATCHLIST = [
     "title": "Sin cerrojos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1839,7 +1839,7 @@ window.WATCHLIST = [
     "title": "Disclaimer",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -1857,7 +1857,7 @@ window.WATCHLIST = [
     "title": "Un pastelería en Tokio",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1874,7 +1874,7 @@ window.WATCHLIST = [
     "title": "The pitt",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1891,7 +1891,7 @@ window.WATCHLIST = [
     "title": "Under the Open sky",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1908,7 +1908,7 @@ window.WATCHLIST = [
     "title": "Dept. Q",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1925,7 +1925,7 @@ window.WATCHLIST = [
     "title": "El gran buck howard",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1942,7 +1942,7 @@ window.WATCHLIST = [
     "title": "Hostiles",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -1960,7 +1960,7 @@ window.WATCHLIST = [
     "title": "La empleada",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1977,7 +1977,7 @@ window.WATCHLIST = [
     "title": "Like father like son",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -1994,7 +1994,7 @@ window.WATCHLIST = [
     "title": "Jay kelly",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2011,7 +2011,7 @@ window.WATCHLIST = [
     "title": "The expanse",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2028,7 +2028,7 @@ window.WATCHLIST = [
     "title": "Lincoln",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2045,7 +2045,7 @@ window.WATCHLIST = [
     "title": "Phantom thread",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2017,
@@ -2062,7 +2062,7 @@ window.WATCHLIST = [
     "title": "In the name of the father",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2079,7 +2079,7 @@ window.WATCHLIST = [
     "title": "Anemone",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2096,7 +2096,7 @@ window.WATCHLIST = [
     "title": "There Will be blood",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2007,
@@ -2113,7 +2113,7 @@ window.WATCHLIST = [
     "title": "Cloud atlas",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2130,7 +2130,7 @@ window.WATCHLIST = [
     "title": "The naked gun",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2147,7 +2147,7 @@ window.WATCHLIST = [
     "title": "Alerta extinción",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2164,7 +2164,7 @@ window.WATCHLIST = [
     "title": "Decision to leave",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2181,7 +2181,7 @@ window.WATCHLIST = [
     "title": "La doncella",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2198,7 +2198,7 @@ window.WATCHLIST = [
     "title": "Zona de riesgo",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas coreanas / otras"
     ],
     "priority": false,
@@ -2216,7 +2216,7 @@ window.WATCHLIST = [
     "title": "Bugonia",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2233,7 +2233,7 @@ window.WATCHLIST = [
     "title": "La hora de los valientes",
     "status": "vista",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2250,7 +2250,7 @@ window.WATCHLIST = [
     "title": "La odisea",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2267,7 +2267,7 @@ window.WATCHLIST = [
     "title": "Knives out",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2284,7 +2284,7 @@ window.WATCHLIST = [
     "title": "Earth abides",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2301,7 +2301,7 @@ window.WATCHLIST = [
     "title": "Enemy",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2318,7 +2318,7 @@ window.WATCHLIST = [
     "title": "It was just an accident",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2335,7 +2335,7 @@ window.WATCHLIST = [
     "title": "Dead mans wire",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2352,7 +2352,7 @@ window.WATCHLIST = [
     "title": "Los abandonados",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2369,7 +2369,7 @@ window.WATCHLIST = [
     "title": "O agente secreto",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2386,7 +2386,7 @@ window.WATCHLIST = [
     "title": "Estado de fuga 1986",
     "status": "vista",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2403,7 +2403,7 @@ window.WATCHLIST = [
     "title": "Nuremberg",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2420,7 +2420,7 @@ window.WATCHLIST = [
     "title": "Mientras dormías",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2437,7 +2437,7 @@ window.WATCHLIST = [
     "title": "The voyeurs",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2454,7 +2454,7 @@ window.WATCHLIST = [
     "title": "Inherent Vice'",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2014,
@@ -2471,7 +2471,7 @@ window.WATCHLIST = [
     "title": "Punch-Drunk Love'",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2002,
@@ -2488,7 +2488,7 @@ window.WATCHLIST = [
     "title": "Hard Eight'",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 1996,
@@ -2505,7 +2505,7 @@ window.WATCHLIST = [
     "title": "Magnolia'",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 1999,
@@ -2522,7 +2522,7 @@ window.WATCHLIST = [
     "title": "The Master'",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2012,
@@ -2539,7 +2539,7 @@ window.WATCHLIST = [
     "title": "Licorice Pizza'",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -2557,7 +2557,7 @@ window.WATCHLIST = [
     "title": "Boogie Nights’",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 1997,
@@ -2574,7 +2574,7 @@ window.WATCHLIST = [
     "title": "One Battle After Another’",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2025,
@@ -2591,7 +2591,7 @@ window.WATCHLIST = [
     "title": "El cazador de sueños",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2608,7 +2608,7 @@ window.WATCHLIST = [
     "title": "Fleabag",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2625,7 +2625,7 @@ window.WATCHLIST = [
     "title": "The colony",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2642,7 +2642,7 @@ window.WATCHLIST = [
     "title": "Rental family",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": true,
     "year": null,
@@ -2659,7 +2659,7 @@ window.WATCHLIST = [
     "title": "Skymed",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2676,7 +2676,7 @@ window.WATCHLIST = [
     "title": "Konkeuriteu yutopia la caída de todo",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2693,7 +2693,7 @@ window.WATCHLIST = [
     "title": "Sentimental values",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2710,7 +2710,7 @@ window.WATCHLIST = [
     "title": "Last samurai standing",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2727,7 +2727,7 @@ window.WATCHLIST = [
     "title": "Pluribus",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2744,7 +2744,7 @@ window.WATCHLIST = [
     "title": "The leftovers",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -2762,7 +2762,7 @@ window.WATCHLIST = [
     "title": "Terror del nuestro",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2779,7 +2779,7 @@ window.WATCHLIST = [
     "title": "Um universo entre nos",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2796,7 +2796,7 @@ window.WATCHLIST = [
     "title": "Metpo",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2813,7 +2813,7 @@ window.WATCHLIST = [
     "title": "The tank",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2830,7 +2830,7 @@ window.WATCHLIST = [
     "title": "The harvest/la cosecha",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2847,7 +2847,7 @@ window.WATCHLIST = [
     "title": "Banshee",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2864,7 +2864,7 @@ window.WATCHLIST = [
     "title": "monkeys",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2881,7 +2881,7 @@ window.WATCHLIST = [
     "title": "SAS rouge heroes",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2898,7 +2898,7 @@ window.WATCHLIST = [
     "title": "Man on the inside",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2915,7 +2915,7 @@ window.WATCHLIST = [
     "title": "The good place",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2932,7 +2932,7 @@ window.WATCHLIST = [
     "title": "Ugly",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2949,7 +2949,7 @@ window.WATCHLIST = [
     "title": "I am hero",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2966,7 +2966,7 @@ window.WATCHLIST = [
     "title": "Invasión",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -2983,7 +2983,7 @@ window.WATCHLIST = [
     "title": "Die My love",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3000,7 +3000,7 @@ window.WATCHLIST = [
     "title": "Lost bus",
     "status": "vista",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3017,7 +3017,7 @@ window.WATCHLIST = [
     "title": "Tlatelolco verano del 68",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3034,7 +3034,7 @@ window.WATCHLIST = [
     "title": "Fire country",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3051,7 +3051,7 @@ window.WATCHLIST = [
     "title": "Seal team",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3068,7 +3068,7 @@ window.WATCHLIST = [
     "title": "El día menos pensado",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3085,7 +3085,7 @@ window.WATCHLIST = [
     "title": "Distancias cortas",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3102,7 +3102,7 @@ window.WATCHLIST = [
     "title": "Weapons",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3119,7 +3119,7 @@ window.WATCHLIST = [
     "title": "Equinox",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3136,7 +3136,7 @@ window.WATCHLIST = [
     "title": "Eternity",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3153,7 +3153,7 @@ window.WATCHLIST = [
     "title": "The mud",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3170,7 +3170,7 @@ window.WATCHLIST = [
     "title": "Outlander blood of my blood",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3187,7 +3187,7 @@ window.WATCHLIST = [
     "title": "La hora de la desaparición",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3204,7 +3204,7 @@ window.WATCHLIST = [
     "title": "The night of",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3221,7 +3221,7 @@ window.WATCHLIST = [
     "title": "Sharp objects",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -3239,7 +3239,7 @@ window.WATCHLIST = [
     "title": "Maniac",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3256,7 +3256,7 @@ window.WATCHLIST = [
     "title": "Los gringo hunters",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3273,7 +3273,7 @@ window.WATCHLIST = [
     "title": "To catch a killer",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3290,7 +3290,7 @@ window.WATCHLIST = [
     "title": "Delirio",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3307,7 +3307,7 @@ window.WATCHLIST = [
     "title": "Benjamín button",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3324,7 +3324,7 @@ window.WATCHLIST = [
     "title": "Jefes de estado",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3341,7 +3341,7 @@ window.WATCHLIST = [
     "title": "Hot milk",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3358,7 +3358,7 @@ window.WATCHLIST = [
     "title": "Eden lake",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3375,7 +3375,7 @@ window.WATCHLIST = [
     "title": "Dongjae entre el bien y el mal",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3392,7 +3392,7 @@ window.WATCHLIST = [
     "title": "All of you",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3409,7 +3409,7 @@ window.WATCHLIST = [
     "title": "Materialists",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3426,7 +3426,7 @@ window.WATCHLIST = [
     "title": "Sirens",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3443,7 +3443,7 @@ window.WATCHLIST = [
     "title": "Task",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3460,7 +3460,7 @@ window.WATCHLIST = [
     "title": "The phoenician scheme",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3477,7 +3477,7 @@ window.WATCHLIST = [
     "title": "Las ventajas de ser invisible",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3494,7 +3494,7 @@ window.WATCHLIST = [
     "title": "A complete unknown",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3511,7 +3511,7 @@ window.WATCHLIST = [
     "title": "Vampire diaries",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3528,7 +3528,7 @@ window.WATCHLIST = [
     "title": "El secreto de sus ojos",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -3546,7 +3546,7 @@ window.WATCHLIST = [
     "title": "Nadie te salvará",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3563,7 +3563,7 @@ window.WATCHLIST = [
     "title": "The rehearsal",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3580,7 +3580,7 @@ window.WATCHLIST = [
     "title": "Inception",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3597,7 +3597,7 @@ window.WATCHLIST = [
     "title": "El tatuador de auswichtz",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3614,7 +3614,7 @@ window.WATCHLIST = [
     "title": "The place beyond The pines",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3631,7 +3631,7 @@ window.WATCHLIST = [
     "title": "Cazador de demonios",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3648,7 +3648,7 @@ window.WATCHLIST = [
     "title": "Makanai",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3665,7 +3665,7 @@ window.WATCHLIST = [
     "title": "Lazaruz",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3682,7 +3682,7 @@ window.WATCHLIST = [
     "title": "The Handmaiden",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -3700,7 +3700,7 @@ window.WATCHLIST = [
     "title": "I’m a Cyborg, But That’s OK",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2006,
@@ -3717,7 +3717,7 @@ window.WATCHLIST = [
     "title": "Thirst",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas coreanas / otras"
     ],
     "priority": false,
@@ -3735,7 +3735,7 @@ window.WATCHLIST = [
     "title": "Oldboy",
     "status": "vista",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series",
       "Películas coreanas / otras"
     ],
@@ -3754,7 +3754,7 @@ window.WATCHLIST = [
     "title": "Lady Vengeance",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2005,
@@ -3771,7 +3771,7 @@ window.WATCHLIST = [
     "title": "Sympathy for Mr. Vengeance",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": 2002,
@@ -3788,7 +3788,7 @@ window.WATCHLIST = [
     "title": "Blue and Gray",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3805,7 +3805,7 @@ window.WATCHLIST = [
     "title": "The civil war",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3822,7 +3822,7 @@ window.WATCHLIST = [
     "title": "Major of kingstown",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3839,7 +3839,7 @@ window.WATCHLIST = [
     "title": "El eternauta",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3856,7 +3856,7 @@ window.WATCHLIST = [
     "title": "Ash",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3873,7 +3873,7 @@ window.WATCHLIST = [
     "title": "Mickey 17",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Bon Joon hoo"
     ],
     "priority": false,
@@ -3891,7 +3891,7 @@ window.WATCHLIST = [
     "title": "The alto knights",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3908,7 +3908,7 @@ window.WATCHLIST = [
     "title": "La chaqueta metálica",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -3926,7 +3926,7 @@ window.WATCHLIST = [
     "title": "El cazador",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
@@ -3943,7 +3943,7 @@ window.WATCHLIST = [
     "title": "Servant",
     "status": "por-ver",
     "groups": [
-      "Francella",
+      "Lista general",
       "Películas y series"
     ],
     "priority": false,
@@ -3961,7 +3961,7 @@ window.WATCHLIST = [
     "title": "One day/siempre el mismo día",
     "status": "por-ver",
     "groups": [
-      "Francella"
+      "Lista general"
     ],
     "priority": false,
     "year": null,
