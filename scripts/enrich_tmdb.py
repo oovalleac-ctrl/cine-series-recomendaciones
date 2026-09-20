@@ -4,22 +4,34 @@ from pathlib import Path
 from datetime import date
 
 TOKEN = os.environ.get("TMDB_API_TOKEN", "").strip()
+USE_V3_KEY = bool(re.fullmatch(r"[0-9a-fA-F]{32}", TOKEN))
 SRC = Path("data/watchlist.js")
 UNMATCHED = Path("data/watchlist_unmatched.json")
 
 if not TOKEN:
     raise SystemExit("TMDB_API_TOKEN is not configured.")
 
+print("TMDb credential mode:", "v3 API key" if USE_V3_KEY else "v4 Read Access Token")
+
 def api(path, params=None):
-    params = params or {}
+    params = dict(params or {})
+    headers = {
+        "accept": "application/json",
+        "User-Agent": "cine-series-recomendaciones/1.0"
+    }
+
+    # TMDb supports either the legacy v3 API key as a query parameter
+    # or the v4 Read Access Token as a Bearer token.
+    if USE_V3_KEY:
+        params["api_key"] = TOKEN
+    else:
+        headers["Authorization"] = "Bearer " + TOKEN
+
     url = "https://api.themoviedb.org/3" + path
     if params:
         url += "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={
-        "Authorization": "Bearer " + TOKEN,
-        "accept": "application/json",
-        "User-Agent": "cine-series-recomendaciones/1.0"
-    })
+
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
