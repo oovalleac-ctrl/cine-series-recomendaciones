@@ -4,31 +4,39 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
-  <title>Administrador | Cine & Series</title>
+  <meta name="theme-color" content="#080a0f" />
+  <title>Administrador V2 | Cine & Series</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body class="admin-body">
   <header class="topbar">
-    <a href="index.html" class="brand">
+    <a href="./" class="brand">
       <span class="brand-mark">▶</span>
       <span>CINE<span class="accent">&</span>SERIES</span>
+      <span class="version-badge">V2</span>
     </a>
     <nav><a href="index.html">← Ver sitio</a></nav>
   </header>
 
   <main class="admin-main">
     <section class="admin-intro">
-      <span class="eyebrow">ADMINISTRACIÓN LOCAL</span>
-      <h1>Agregar una recomendación</h1>
+      <span class="eyebrow">PANEL DE CONTENIDO V2</span>
+      <h1>Tu catálogo, sin tocar código.</h1>
       <p>
-        Captura una ficha, guarda los cambios y exporta el archivo
-        <code>recomendaciones.js</code>. Después reemplaza el archivo dentro de
-        <code>data/</code> en tu sitio publicado.
+        Crea, modifica y elimina recomendaciones desde este formulario. El borrador se guarda
+        automáticamente en este navegador. Cuando termines, copia o descarga el archivo listo para publicar.
       </p>
+      <div class="admin-note">
+        <span>ℹ</span>
+        <span>Este panel funciona sin servidor y no guarda contraseñas. Para publicar los cambios en la web,
+        usa el botón <strong>Abrir archivo en GitHub</strong> y reemplaza su contenido con el que genera el panel.</span>
+      </div>
     </section>
 
     <section class="admin-layout">
       <form id="recommendationForm" class="admin-form">
+        <div class="editing-banner" id="editingBanner">Editando: <strong id="editingTitle"></strong></div>
+
         <label>Título
           <input id="title" required maxlength="100" placeholder="Ej. Arrival">
         </label>
@@ -49,16 +57,20 @@
           <input id="genres" required placeholder="Ciencia ficción, Drama">
         </label>
 
+        <label>Etiquetas editoriales
+          <input id="editorial" placeholder="Para pensar, Fin de semana">
+        </label>
+
         <label>Frase corta
-          <input id="tagline" required maxlength="120" placeholder="Una historia inteligente sobre lenguaje y tiempo.">
+          <input id="tagline" required maxlength="150" placeholder="Una historia inteligente sobre lenguaje y tiempo.">
         </label>
 
         <label>¿Por qué la recomiendo?
-          <textarea id="reason" required rows="5" maxlength="600" placeholder="Explica brevemente por qué vale la pena verla."></textarea>
+          <textarea id="reason" required rows="5" maxlength="900" placeholder="Explica por qué vale la pena verla."></textarea>
         </label>
 
         <label>Ideal para…
-          <input id="idealFor" maxlength="160" placeholder="Quien disfrute historias reflexivas y ciencia ficción seria.">
+          <input id="idealFor" maxlength="220" placeholder="Quien disfrute historias reflexivas y ciencia ficción seria.">
         </label>
 
         <div class="form-row">
@@ -78,22 +90,48 @@
           <input id="videoUrl" type="url" placeholder="https://youtube.com/...">
         </label>
 
+        <label class="checkbox-line">
+          <input id="featured" type="checkbox">
+          Mostrar como recomendación destacada
+        </label>
+
         <div class="form-actions">
-          <button class="button primary" type="submit">Agregar recomendación</button>
-          <button class="button ghost" type="button" id="resetBtn">Restaurar originales</button>
+          <button class="button primary" type="submit" id="saveBtn">Agregar recomendación</button>
+          <button class="button ghost" type="button" id="cancelEditBtn" hidden>Cancelar edición</button>
+          <button class="button ghost" type="button" id="resetBtn">Restaurar publicadas</button>
         </div>
       </form>
 
-      <aside class="admin-list">
-        <div class="admin-list-head">
-          <div>
-            <span class="eyebrow">CONTENIDO</span>
-            <h2>Recomendaciones guardadas</h2>
+      <div class="admin-stack">
+        <aside class="admin-list">
+          <div class="admin-list-head">
+            <div>
+              <span class="eyebrow">BORRADOR</span>
+              <h2>Recomendaciones</h2>
+              <div class="admin-counter" id="adminCounter"></div>
+            </div>
           </div>
-          <button class="button secondary" id="exportBtn">Exportar archivo</button>
-        </div>
-        <div id="adminItems"></div>
-      </aside>
+          <div id="adminItems"></div>
+        </aside>
+
+        <section class="publish-box">
+          <span class="eyebrow">PUBLICAR</span>
+          <h3>Cuando el catálogo esté listo</h3>
+          <p>
+            El panel genera exactamente el contenido de <code>data/recomendaciones.js</code>.
+            Puedes copiarlo y pegarlo en GitHub o descargar el archivo completo.
+          </p>
+          <div class="publish-actions">
+            <button class="button primary" id="copyBtn" type="button">Copiar archivo</button>
+            <button class="button secondary" id="exportBtn" type="button">Descargar .js</button>
+            <a class="button ghost" target="_blank" rel="noopener"
+              href="https://github.com/oovalleac-ctrl/cine-series-recomendaciones/edit/main/data/recomendaciones.js">
+              Abrir archivo en GitHub ↗
+            </a>
+          </div>
+          <div class="status-line" id="statusLine"></div>
+        </section>
+      </div>
     </section>
   </main>
 
