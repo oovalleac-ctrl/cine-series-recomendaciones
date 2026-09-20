@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Lista personal de películas y series por ver." />
+  <meta name="theme-color" content="#080a0f" />
+  <title>Mi lista | Cine & Series</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="./" class="brand" aria-label="Inicio">
+      <span class="brand-mark">▶</span>
+      <span>CINE<span class="accent">&</span>SERIES</span>
+      <span class="version-badge">V2.2</span>
+    </a>
+    <nav>
+      <a href="index.html">Recomendaciones</a>
+      <a href="lista.html" class="nav-active">Mi lista</a>
+      <a class="nav-admin" href="admin.html">Administrar</a>
+    </nav>
+  </header>
+
+  <main class="watch-main">
+    <section class="watch-hero">
+      <span class="eyebrow">LISTA PERSONAL</span>
+      <h1>Todo lo que quiero ver.</h1>
+      <p>
+        Una biblioteca personal en crecimiento. Los títulos marcados originalmente con ✓ aparecen como vistos;
+        el resto permanece en la lista por ver.
+      </p>
+      <div class="watch-stats" id="watchStats"></div>
+    </section>
+
+    <section class="watch-controls">
+      <div class="toolbar">
+        <div class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="watchSearch" type="search" placeholder="Buscar título, grupo o nota…" aria-label="Buscar en mi lista">
+        </div>
+        <select id="watchSort" aria-label="Ordenar lista">
+          <option value="title">A–Z</option>
+          <option value="group">Por grupo</option>
+          <option value="rating">Mejor calificación pública</option>
+        </select>
+      </div>
+
+      <div class="filters" id="watchFilters">
+        <button class="chip active" data-status="todos">Todos</button>
+        <button class="chip" data-status="por-ver">Por ver</button>
+        <button class="chip" data-status="vista">Vistos ✓</button>
+        <button class="chip" data-status="con-datos">Con ficha</button>
+      </div>
+
+      <div class="watch-group-row">
+        <label for="groupFilter">Grupo</label>
+        <select id="groupFilter">
+          <option value="todos">Todos los grupos</option>
+        </select>
+        <span id="watchCount"></span>
+      </div>
+    </section>
+
+    <section class="watch-grid" id="watchGrid" aria-live="polite"></section>
+    <div class="load-more-wrap">
+      <button class="button ghost" id="loadMoreBtn" type="button">Mostrar más</button>
+    </div>
+
+    <section class="data-note">
+      <div>
+        <span class="eyebrow">FUENTES Y LICENCIAS</span>
+        <h2>Portadas y puntuación pública</h2>
+      </div>
+      <p>
+        Las fichas enriquecidas usarán datos e imágenes de TMDb en modalidad no comercial y con atribución.
+        “Calificación pública” corresponderá al promedio de usuarios de TMDb. Las reseñas de esta web serán
+        textos originales, no copias de críticas publicadas. Los datos de Rotten Tomatoes no se extraen
+        automáticamente porque su integración requiere autorización/licencia.
+      </p>
+      <p class="tmdb-credit">
+        This product uses the TMDB API but is not endorsed or certified by TMDB.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand">
+      <span class="brand-mark small">▶</span>
+      <span>CINE<span class="accent">&</span>SERIES</span>
+    </div>
+    <span>Lista personal · <span id="year"></span></span>
+  </footer>
+
+  <script src="data/watchlist.js"></script>
+  <script src="js/watchlist.js"></script>
+</body>
+</html>
