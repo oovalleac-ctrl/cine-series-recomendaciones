@@ -104,6 +104,24 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
+    "id": "1883",
+    "title": "1883",
+    "status": "por-ver",
+    "groups": [
+      "Lista general",
+      "Películas y series"
+    ],
+    "priority": false,
+    "year": null,
+    "note": "",
+    "tmdb": null,
+    "poster": "",
+    "publicRating": null,
+    "publicRatingSource": "TMDb",
+    "review": "",
+    "rottenTomatoes": null
+  },
+  {
     "id": "1923",
     "title": "1923",
     "status": "por-ver",
@@ -534,8 +552,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "asesinos",
-    "title": "asesinos",
+    "id": "13asesinos",
+    "title": "13 asesinos",
     "status": "por-ver",
     "groups": [
       "Lista general"
@@ -688,8 +706,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "bodasyunfuneral",
-    "title": "bodas y un funeral",
+    "id": "4bodasyunfuneral",
+    "title": "4 bodas y un funeral",
     "status": "por-ver",
     "groups": [
       "Lista general"
@@ -2860,8 +2878,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "monkeys",
-    "title": "monkeys",
+    "id": "12monkeys",
+    "title": "12 monkeys",
     "status": "por-ver",
     "groups": [
       "Lista general"
@@ -4334,8 +4352,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "2963",
-    "title": ",29,63",
+    "id": "112963",
+    "title": "11,29,63",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -4725,8 +4743,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "julio",
-    "title": "julio",
+    "id": "22julio",
+    "title": "22 julio",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -6273,8 +6291,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "diaslluviosos",
-    "title": "días lluviosos",
+    "id": "4diaslluviosos",
+    "title": "4 días lluviosos",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -7482,8 +7500,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "monedas",
-    "title": "monedas",
+    "id": "30monedas",
+    "title": "30 monedas",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -7958,8 +7976,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "dias",
-    "title": "dias",
+    "id": "9dias",
+    "title": "9 dias",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -10935,8 +10953,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "vidas",
-    "title": "vidas",
+    "id": "13vidas",
+    "title": "13 vidas",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -11156,8 +11174,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "ronnin",
-    "title": "ronnin",
+    "id": "47ronnin",
+    "title": "47 ronnin",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -11804,6 +11822,23 @@ window.WATCHLIST = [
   {
     "id": "punalesporlaespalda1y2",
     "title": "Puñales por la espalda 1 y 2",
+    "status": "por-ver",
+    "groups": [
+      "Películas y series"
+    ],
+    "priority": false,
+    "year": null,
+    "note": "",
+    "tmdb": null,
+    "poster": "",
+    "publicRating": null,
+    "publicRatingSource": "TMDb",
+    "review": "",
+    "rottenTomatoes": null
+  },
+  {
+    "id": "1921",
+    "title": "1921",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -12805,8 +12840,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "bitschristmas",
-    "title": "bits christmas",
+    "id": "8bitschristmas",
+    "title": "8bits christmas",
     "status": "por-ver",
     "groups": [
       "Películas y series"
@@ -13443,6 +13478,23 @@ window.WATCHLIST = [
     "groups": [
       "Bon Joon hoo",
       "Películas coreanas / otras"
+    ],
+    "priority": false,
+    "year": null,
+    "note": "",
+    "tmdb": null,
+    "poster": "",
+    "publicRating": null,
+    "publicRatingSource": "TMDb",
+    "review": "",
+    "rottenTomatoes": null
+  },
+  {
+    "id": "1987",
+    "title": "1987",
+    "status": "por-ver",
+    "groups": [
+      "Bon Joon hoo"
     ],
     "priority": false,
     "year": null,
@@ -14271,8 +14323,8 @@ window.WATCHLIST = [
     "rottenTomatoes": null
   },
   {
-    "id": "cuandollegaeldia",
-    "title": ": cuando llega el día",
+    "id": "1897cuandollegaeldia",
+    "title": "1897: cuando llega el día",
     "status": "por-ver",
     "groups": [
       "Películas coreanas / otras"
