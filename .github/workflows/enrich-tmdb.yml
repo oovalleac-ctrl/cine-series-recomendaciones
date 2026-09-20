@@ -2,6 +2,9 @@ name: Enrich watchlist with TMDb
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/tmdb-enrich-trigger.txt"
 
 permissions:
   contents: write
