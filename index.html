@@ -13,10 +13,11 @@
     <a href="./" class="brand" aria-label="Inicio">
       <span class="brand-mark">▶</span>
       <span>CINE<span class="accent">&</span>SERIES</span>
-      <span class="version-badge">V2</span>
+      <span class="version-badge">V2.4</span>
     </a>
     <nav>
       <a href="#recomendaciones">Explorar</a>
+      <a href="#imprescindibles">200 imprescindibles</a>
       <a href="lista.html">Mi lista</a>
       <a href="#sobre-mi">El proyecto</a>
       <a class="nav-admin" href="admin.html">Administrar</a>
@@ -89,6 +90,57 @@
 
     <section class="grid" id="recommendationGrid" aria-live="polite"></section>
 
+
+    <section class="top-all-section" id="imprescindibles">
+      <div class="top-all-heading">
+        <div>
+          <span class="eyebrow">SELECCIÓN DE CONSENSO</span>
+          <h2>200 imprescindibles de todos los tiempos</h2>
+          <p>
+            Una selección editorial propia: 100 películas y 100 series construidas cruzando
+            canon crítico, influencia histórica y valoración del público. No reproduce el orden
+            de una sola publicación.
+          </p>
+        </div>
+        <div class="top-all-summary">
+          <strong>100 + 100</strong>
+          <span>Cine y televisión para construir una gran videoteca.</span>
+        </div>
+      </div>
+
+      <div class="top-all-toolbar">
+        <div class="filters" id="topAllTabs">
+          <button class="chip active" type="button" data-top-type="Película">🎬 100 películas</button>
+          <button class="chip" type="button" data-top-type="Serie">📺 100 series</button>
+        </div>
+        <div class="search-wrap top-all-search">
+          <span aria-hidden="true">⌕</span>
+          <input id="topAllSearch" type="search" placeholder="Buscar dentro de las 200…" aria-label="Buscar en los imprescindibles">
+        </div>
+      </div>
+
+      <div class="top-all-subhead">
+        <span id="topAllCount"></span>
+        <span>Orden editorial de consenso</span>
+      </div>
+
+      <div class="top-all-grid" id="topAllGrid"></div>
+      <div class="load-more-wrap">
+        <button class="button ghost" id="topAllMore" type="button">Mostrar más</button>
+      </div>
+
+      <div class="top-sources">
+        <strong>Referencias utilizadas para construir la selección:</strong>
+        <a href="https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time" target="_blank" rel="noopener">Sight &amp; Sound / BFI</a>
+        <a href="https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/" target="_blank" rel="noopener">AFI</a>
+        <a href="https://www.imdb.com/chart/top/" target="_blank" rel="noopener">IMDb Cine</a>
+        <a href="https://editorial.rottentomatoes.com/guide/best-movies-of-all-time/" target="_blank" rel="noopener">Rotten Tomatoes</a>
+        <a href="https://www.rollingstone.com/tv-movies/tv-movie-lists/best-tv-shows-of-all-time-1234567952/" target="_blank" rel="noopener">Rolling Stone</a>
+        <a href="https://variety.com/lists/greatest-tv-shows-of-all-time/" target="_blank" rel="noopener">Variety</a>
+        <a href="https://www.imdb.com/chart/toptv/" target="_blank" rel="noopener">IMDb TV</a>
+      </div>
+    </section>
+
     <section class="about" id="sobre-mi">
       <div>
         <span class="eyebrow">EL PROYECTO</span>
@@ -121,6 +173,8 @@
   </footer>
 
   <script src="data/recomendaciones.js"></script>
+  <script src="data/top-all-time.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/top-all-time.js"></script>
 </body>
 </html>
