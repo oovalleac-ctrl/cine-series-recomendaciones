@@ -39,7 +39,9 @@ function visibleItems(){
 }
 function card(item){
   const image = item.poster ? ' style="background-image:url(\'' + esc(item.poster) + '\')"' : '';
-  const rating = item.publicRating != null ? '<span class="watch-rating">★ ' + Number(item.publicRating).toFixed(1) + ' <small>TMDb</small></span>' : '<span class="watch-rating muted">Sin calificar</span>';
+  const rating = item.publicRating != null ? '<span class="watch-rating">Público ★ ' + Number(item.publicRating).toFixed(1) + '/10 <small>TMDb</small></span>' : '<span class="watch-rating muted">Calificación pública pendiente</span>';
+  const rt = item.rottenTomatoes != null ? '<span class="watch-rating rt-rating">RT ' + Number(item.rottenTomatoes).toFixed(0) + '%</span>' : '';
+  const sourceLink = item.tmdb && item.tmdb.url ? '<a class="source-link" target="_blank" rel="noopener" href="' + esc(item.tmdb.url) + '">Ficha TMDb ↗</a>' : '';
   const status = item.status === 'vista' ? '<span class="seen-badge">✓ Vista</span>' : '<span class="todo-badge">Por ver</span>';
   const review = item.review ? '<p class="watch-review">' + esc(item.review) + '</p>' : '';
   const note = item.note ? '<p class="watch-note">' + esc(item.note) + '</p>' : '';
@@ -51,8 +53,8 @@ function card(item){
     '<div class="watch-card-body">' +
       '<div class="watch-group">' + esc((item.groups||[]).join(' · ')) + '</div>' +
       '<h3>' + esc(item.title) + (item.year ? ' <small>(' + esc(item.year) + ')</small>' : '') + '</h3>' +
-      rating +
-      review + note +
+      '<div class="rating-row">' + rating + rt + '</div>' +
+      review + note + sourceLink +
       (item.priority ? '<span class="priority-badge">★ Prioridad</span>' : '') +
     '</div>' +
   '</article>';
