@@ -1,0 +1,34 @@
+name: Build personal watchlist
+
+on:
+  push:
+    paths:
+      - "data/lista_personal_raw.txt"
+      - "scripts/build_watchlist.py"
+      - ".github/workflows/build-watchlist.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build watchlist
+        run: python scripts/build_watchlist.py
+
+      - name: Commit generated watchlist
+        run: |
+          if git diff --quiet -- data/watchlist.js; then
+            echo "No changes to publish"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/watchlist.js
+          git commit -m "Build personal watchlist"
+          git push
