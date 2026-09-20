@@ -23,7 +23,7 @@ jobs:
 
       - name: Commit generated watchlist
         run: |
-          if git diff --quiet -- data/watchlist.js; then
+          if [ -z "$(git status --porcelain -- data/watchlist.js)" ]; then
             echo "No changes to publish"
             exit 0
           fi
