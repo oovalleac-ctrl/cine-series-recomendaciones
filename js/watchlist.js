@@ -25,6 +25,7 @@ function visibleItems(){
     if(activeStatus === 'por-ver' && item.status !== 'por-ver') return false;
     if(activeStatus === 'vista' && item.status !== 'vista') return false;
     if(activeStatus === 'con-datos' && !hasData(item)) return false;
+    if(activeStatus === 'sin-datos' && hasData(item)) return false;
     if(group !== 'todos' && !(item.groups || []).includes(group)) return false;
     if(q){
       const hay = norm([item.title,(item.groups||[]).join(' '),item.note,item.review].join(' '));
