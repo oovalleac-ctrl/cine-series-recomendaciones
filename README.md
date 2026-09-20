@@ -1,27 +1,35 @@
-# Cine & Series — Recomendaciones (V1)
+# Cine & Series — Recomendaciones V2
 
-Sitio estático gratuito para publicar recomendaciones de películas y series.
+Sitio estático gratuito publicado con GitHub Pages para reunir recomendaciones personales de películas y series.
 
-## Abrirlo
-Haz doble clic en `index.html`.
+## V2
+- Diseño responsive renovado.
+- Buscador por título, género, comentario y etiquetas.
+- Filtros por películas, series y categorías editoriales.
+- Orden por recomendación, calificación, año y título.
+- Recomendación aleatoria con “Sorpréndeme”.
+- Vista detallada en modal.
+- Enlaces directos compartibles a cada recomendación mediante hash.
+- Panel V2 para crear, editar y eliminar recomendaciones.
+- Una sola recomendación destacada.
+- Copiar o descargar recomendaciones.js listo para publicar.
 
-## Agregar recomendaciones
-1. Abre `admin.html`.
-2. Llena el formulario.
-3. Pulsa **Agregar recomendación**.
-4. Cuando termines, pulsa **Exportar archivo**.
-5. Reemplaza `data/recomendaciones.js` con el archivo exportado.
-6. Vuelve a publicar/subir el sitio.
+## Administración
+Abre admin.html.
 
-El panel guarda un borrador en el `localStorage` del navegador. Esto significa que el contenido capturado queda guardado en ese navegador, pero para publicarlo para todos debes exportar y reemplazar el archivo.
+El borrador del panel vive únicamente en el localStorage del navegador. Para publicar:
+1. Crea o edita las recomendaciones.
+2. Pulsa **Copiar archivo**.
+3. Pulsa **Abrir archivo en GitHub**.
+4. Selecciona todo el contenido del archivo, reemplázalo por el contenido copiado y confirma el commit.
+5. GitHub Pages vuelve a desplegar el sitio automáticamente.
 
-## Publicación gratis
-Opción recomendada: GitHub Pages.
+También puedes usar **Descargar .js** y sustituir data/recomendaciones.js desde GitHub Desktop.
 
 ## Estructura
-- `index.html`: página pública
-- `admin.html`: panel local
-- `css/styles.css`: estilos
-- `js/app.js`: buscador, filtros y tarjetas
-- `js/admin.js`: captura y exportación
-- `data/recomendaciones.js`: base de contenido
+- index.html — sitio público.
+- admin.html — panel de contenido.
+- css/styles.css — identidad visual y responsive.
+- js/app.js — catálogo, filtros, modal, compartir y búsqueda.
+- js/admin.js — edición local y exportación.
+- data/recomendaciones.js — contenido publicado.
