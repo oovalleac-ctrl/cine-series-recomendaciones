@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Administrador | Cine & Series</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="admin-body">
+  <header class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">▶</span>
+      <span>CINE<span class="accent">&</span>SERIES</span>
+    </a>
+    <nav><a href="index.html">← Ver sitio</a></nav>
+  </header>
+
+  <main class="admin-main">
+    <section class="admin-intro">
+      <span class="eyebrow">ADMINISTRACIÓN LOCAL</span>
+      <h1>Agregar una recomendación</h1>
+      <p>
+        Captura una ficha, guarda los cambios y exporta el archivo
+        <code>recomendaciones.js</code>. Después reemplaza el archivo dentro de
+        <code>data/</code> en tu sitio publicado.
+      </p>
+    </section>
+
+    <section class="admin-layout">
+      <form id="recommendationForm" class="admin-form">
+        <label>Título
+          <input id="title" required maxlength="100" placeholder="Ej. Arrival">
+        </label>
+
+        <div class="form-row">
+          <label>Tipo
+            <select id="type">
+              <option>Película</option>
+              <option>Serie</option>
+            </select>
+          </label>
+          <label>Año
+            <input id="yearField" type="number" min="1900" max="2100" placeholder="2016">
+          </label>
+        </div>
+
+        <label>Géneros
+          <input id="genres" required placeholder="Ciencia ficción, Drama">
+        </label>
+
+        <label>Frase corta
+          <input id="tagline" required maxlength="120" placeholder="Una historia inteligente sobre lenguaje y tiempo.">
+        </label>
+
+        <label>¿Por qué la recomiendo?
+          <textarea id="reason" required rows="5" maxlength="600" placeholder="Explica brevemente por qué vale la pena verla."></textarea>
+        </label>
+
+        <label>Ideal para…
+          <input id="idealFor" maxlength="160" placeholder="Quien disfrute historias reflexivas y ciencia ficción seria.">
+        </label>
+
+        <div class="form-row">
+          <label>Calificación
+            <input id="rating" type="number" min="0" max="10" step="0.1" value="8.5">
+          </label>
+          <label>Emoji / símbolo
+            <input id="emoji" maxlength="4" value="🎬">
+          </label>
+        </div>
+
+        <label>URL de imagen (opcional)
+          <input id="image" type="url" placeholder="https://...">
+        </label>
+
+        <label>URL de reseña en video (opcional)
+          <input id="videoUrl" type="url" placeholder="https://youtube.com/...">
+        </label>
+
+        <div class="form-actions">
+          <button class="button primary" type="submit">Agregar recomendación</button>
+          <button class="button ghost" type="button" id="resetBtn">Restaurar originales</button>
+        </div>
+      </form>
+
+      <aside class="admin-list">
+        <div class="admin-list-head">
+          <div>
+            <span class="eyebrow">CONTENIDO</span>
+            <h2>Recomendaciones guardadas</h2>
+          </div>
+          <button class="button secondary" id="exportBtn">Exportar archivo</button>
+        </div>
+        <div id="adminItems"></div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="data/recomendaciones.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
