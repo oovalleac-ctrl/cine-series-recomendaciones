@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Recomendaciones personales de películas y series." />
+  <title>Cine & Series | Recomendaciones</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="index.html" class="brand" aria-label="Inicio">
+      <span class="brand-mark">▶</span>
+      <span>CINE<span class="accent">&</span>SERIES</span>
+    </a>
+    <nav>
+      <a href="#recomendaciones">Recomendaciones</a>
+      <a href="#sobre-mi">Sobre el proyecto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow hero-glow-a"></div>
+      <div class="hero-glow hero-glow-b"></div>
+      <div class="hero-content">
+        <span class="eyebrow">RECOMENDACIONES SIN SPOILERS</span>
+        <h1>Qué ver cuando no quieres perder tiempo buscando.</h1>
+        <p>
+          Películas y series que valen la pena, explicadas de forma breve:
+          qué tienen de especial, para quién son y por qué las recomiendo.
+        </p>
+        <a class="button primary" href="#recomendaciones">Explorar recomendaciones</a>
+      </div>
+      <div class="hero-card" id="heroFeatured">
+        <span class="mini-label">DESTACADA</span>
+        <div class="featured-placeholder">🎬</div>
+        <h2>Cargando recomendación…</h2>
+      </div>
+    </section>
+
+    <section class="controls" id="recomendaciones">
+      <div>
+        <span class="eyebrow">CATÁLOGO</span>
+        <h2>Encuentra algo para ver</h2>
+      </div>
+
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Buscar título, género o comentario…" aria-label="Buscar recomendaciones">
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="Todos">Todos</button>
+        <button class="chip" data-filter="Película">Películas</button>
+        <button class="chip" data-filter="Serie">Series</button>
+        <button class="chip" data-filter="Ciencia ficción">Ciencia ficción</button>
+        <button class="chip" data-filter="Drama">Drama</button>
+        <button class="chip" data-filter="Acción">Acción</button>
+        <button class="chip" data-filter="Animación">Animación</button>
+      </div>
+    </section>
+
+    <section class="grid" id="recommendationGrid" aria-live="polite"></section>
+
+    <section class="about" id="sobre-mi">
+      <div>
+        <span class="eyebrow">EL PROYECTO</span>
+        <h2>Primero recomendaciones. Después, reseñas en video.</h2>
+      </div>
+      <p>
+        Este sitio está pensado para crecer contigo. Cada ficha puede incorporar más adelante
+        una reseña completa, un video de YouTube, TikTok, Facebook o cualquier otra plataforma.
+        La idea es conservar un catálogo propio que no dependa del algoritmo de una red social.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Cine & Series</span>
+    <span>Hecho para compartir buenas historias.</span>
+  </footer>
+
+  <script src="data/recomendaciones.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
