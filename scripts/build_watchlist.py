@@ -32,9 +32,10 @@ def clean_title(line):
     priority = original.endswith("**") or original.endswith("*")
     s = original.replace("✓", "").strip()
 
-    # Rankings / list numbers / emoji numbers.
-    s = re.sub(r"^[0-9]+\s*[️⃣]?\s*[\.\-]?\s*", "", s)
+    # Rankings / list numbers, without damaging numeric titles such as 1883, 1923, 13 vidas or 30 monedas.
     s = re.sub(r"^[0-9]+[️⃣]\s*", "", s)
+    s = re.sub(r"^[0-9]{1,2}\s*[\.\)]\s*", "", s)
+    s = re.sub(r"^[0-9]{1,2}\s+(?=['‘“#])", "", s)
     s = re.sub(r"^#(?=\w)", "", s)
     s = s.strip(" '‘’\"")
 
