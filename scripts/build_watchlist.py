@@ -5,6 +5,7 @@ RAW = Path("data/lista_personal_raw.txt")
 OUT = Path("data/watchlist.js")
 
 HEADING_MAP = {
+    "Series y películas por ver:": "Lista general",
     "Francella:": "Francella",
     "Películas -series": "Películas y series",
     "Series coreanas / chinas": "Series coreanas / chinas",
@@ -65,6 +66,8 @@ def main():
     for raw in lines:
         line = raw.strip()
         if not line:
+            if group == "Francella":
+                group = "Lista general"
             continue
 
         if line in HEADING_MAP:
