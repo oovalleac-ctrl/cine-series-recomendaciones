@@ -3,19 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Recomendaciones personales de películas y series." />
-  <title>Cine & Series | Recomendaciones</title>
+  <meta name="description" content="Recomendaciones personales de películas y series, sin spoilers y al grano." />
+  <meta name="theme-color" content="#080a0f" />
+  <title>Cine & Series | Qué ver sin perder tiempo</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <a href="index.html" class="brand" aria-label="Inicio">
+    <a href="./" class="brand" aria-label="Inicio">
       <span class="brand-mark">▶</span>
       <span>CINE<span class="accent">&</span>SERIES</span>
+      <span class="version-badge">V2</span>
     </a>
     <nav>
-      <a href="#recomendaciones">Recomendaciones</a>
-      <a href="#sobre-mi">Sobre el proyecto</a>
+      <a href="#recomendaciones">Explorar</a>
+      <a href="#sobre-mi">El proyecto</a>
+      <a class="nav-admin" href="admin.html">Administrar</a>
     </nav>
   </header>
 
@@ -23,41 +26,64 @@
     <section class="hero">
       <div class="hero-glow hero-glow-a"></div>
       <div class="hero-glow hero-glow-b"></div>
+
       <div class="hero-content">
         <span class="eyebrow">RECOMENDACIONES SIN SPOILERS</span>
-        <h1>Qué ver cuando no quieres perder tiempo buscando.</h1>
+        <h1>Menos tiempo buscando.<br><span class="gradient-text">Más tiempo viendo.</span></h1>
         <p>
-          Películas y series que valen la pena, explicadas de forma breve:
-          qué tienen de especial, para quién son y por qué las recomiendo.
+          Una selección personal de películas y series con una explicación breve:
+          qué tienen de especial, para quién funcionan y por qué vale la pena darles una oportunidad.
         </p>
-        <a class="button primary" href="#recomendaciones">Explorar recomendaciones</a>
+        <div class="hero-actions">
+          <a class="button primary" href="#recomendaciones">Explorar catálogo</a>
+          <button class="button ghost" id="surpriseBtn" type="button">🎲 Sorpréndeme</button>
+        </div>
+        <div class="hero-stats" id="heroStats"></div>
       </div>
-      <div class="hero-card" id="heroFeatured">
-        <span class="mini-label">DESTACADA</span>
+
+      <article class="hero-card" id="heroFeatured" aria-label="Recomendación destacada">
+        <span class="mini-label">RECOMENDACIÓN DESTACADA</span>
         <div class="featured-placeholder">🎬</div>
-        <h2>Cargando recomendación…</h2>
-      </div>
+        <h2>Cargando…</h2>
+      </article>
+    </section>
+
+    <section class="editorial-strip" aria-label="Filosofía del sitio">
+      <span>✓ Sin spoilers</span>
+      <span>✓ Opinión personal</span>
+      <span>✓ Recomendaciones rápidas</span>
+      <span>✓ Sin listas interminables</span>
     </section>
 
     <section class="controls" id="recomendaciones">
-      <div>
-        <span class="eyebrow">CATÁLOGO</span>
-        <h2>Encuentra algo para ver</h2>
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">CATÁLOGO</span>
+          <h2>¿Qué quieres ver hoy?</h2>
+        </div>
+        <span class="result-count" id="resultCount"></span>
       </div>
 
-      <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="Buscar título, género o comentario…" aria-label="Buscar recomendaciones">
+      <div class="toolbar">
+        <div class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Buscar título, género, etiqueta…" aria-label="Buscar recomendaciones">
+        </div>
+        <select id="sortSelect" aria-label="Ordenar recomendaciones">
+          <option value="featured">Orden recomendado</option>
+          <option value="rating">Mejor calificadas</option>
+          <option value="newest">Más recientes</option>
+          <option value="title">A–Z</option>
+        </select>
       </div>
 
       <div class="filters" id="filters">
         <button class="chip active" data-filter="Todos">Todos</button>
         <button class="chip" data-filter="Película">Películas</button>
         <button class="chip" data-filter="Serie">Series</button>
-        <button class="chip" data-filter="Ciencia ficción">Ciencia ficción</button>
-        <button class="chip" data-filter="Drama">Drama</button>
-        <button class="chip" data-filter="Acción">Acción</button>
-        <button class="chip" data-filter="Animación">Animación</button>
       </div>
+
+      <div class="editorial-filters" id="editorialFilters"></div>
     </section>
 
     <section class="grid" id="recommendationGrid" aria-live="polite"></section>
@@ -65,19 +91,32 @@
     <section class="about" id="sobre-mi">
       <div>
         <span class="eyebrow">EL PROYECTO</span>
-        <h2>Primero recomendaciones. Después, reseñas en video.</h2>
+        <h2>Un catálogo propio antes de dar el salto al video.</h2>
       </div>
-      <p>
-        Este sitio está pensado para crecer contigo. Cada ficha puede incorporar más adelante
-        una reseña completa, un video de YouTube, TikTok, Facebook o cualquier otra plataforma.
-        La idea es conservar un catálogo propio que no dependa del algoritmo de una red social.
-      </p>
+      <div class="about-copy">
+        <p>
+          La idea es reunir recomendaciones claras y personales en un lugar que puedas compartir,
+          sin depender únicamente del algoritmo de una red social.
+        </p>
+        <p>
+          Más adelante cada ficha puede sumar reseñas en YouTube, Facebook, TikTok u otras plataformas,
+          conservando aquí el archivo completo de tus recomendaciones.
+        </p>
+      </div>
     </section>
   </main>
 
+  <dialog id="detailDialog" class="detail-dialog">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Cerrar">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
   <footer>
-    <span>© <span id="year"></span> Cine & Series</span>
-    <span>Hecho para compartir buenas historias.</span>
+    <div class="brand footer-brand">
+      <span class="brand-mark small">▶</span>
+      <span>CINE<span class="accent">&</span>SERIES</span>
+    </div>
+    <span>© <span id="year"></span> · Recomendaciones personales, sin spoilers.</span>
   </footer>
 
   <script src="data/recomendaciones.js"></script>
