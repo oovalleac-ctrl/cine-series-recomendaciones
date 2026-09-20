@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080a0f">
+  <title>Mi lista personal | Cine & Series</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="./" class="brand"><span class="brand-mark">▶</span><span>CINE<span class="accent">&</span>SERIES</span><span class="version-badge">V2.3</span></a>
+  <nav><a href="index.html">Recomendaciones</a><a href="watchlist.html">Mi lista</a><a class="nav-admin" href="admin.html">Administrar</a></nav>
+</header>
+<main class="admin-main">
+  <section class="admin-intro">
+    <span class="eyebrow">MI LISTA PERSONAL</span>
+    <h1>Por ver, vistas y pendientes de verificar.</h1>
+    <p>Esta sección conserva tu lista maestra, elimina duplicados visualmente y deja preparado cada título para añadir portada, calificación pública, sinopsis y fuentes verificadas.</p>
+  </section>
+  <section class="controls">
+    <div class="toolbar">
+      <div class="search-wrap"><span>⌕</span><input id="watchSearch" type="search" placeholder="Buscar en mi lista…"></div>
+      <select id="watchStatus"><option value="Todos">Todos</option><option value="Por ver">Por ver</option><option value="Vista">Vistas ✓</option></select>
+    </div>
+    <div class="hero-stats" id="watchStats"></div>
+  </section>
+  <section id="watchGrid" class="grid"></section>
+</main>
+<footer><span>Lista personal · Cine & Series</span><span>Datos externos con fuente y atribución.</span></footer>
+<script src="data/watchlist-enriched.js"></script>
+<script src="js/watchlist.js"></script>
+</body>
+</html>
