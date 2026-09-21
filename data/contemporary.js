@@ -1,0 +1,1 @@
+window.CONTEMPORARY_MOVIES = [];
