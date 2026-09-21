@@ -13,10 +13,10 @@
     <a href="./" class="brand" aria-label="Inicio">
       <span class="brand-mark">▶</span>
       <span>CINE<span class="accent">&</span>SERIES</span>
-      <span class="version-badge">V2.4</span>
+      <span class="version-badge">V2.5</span>
     </a>
     <nav>
-      <a href="#recomendaciones">Explorar</a>
+      <a href="#contemporaneas">Contemporáneas</a>
       <a href="#imprescindibles">200 imprescindibles</a>
       <a href="lista.html">Mi lista</a>
       <a href="#sobre-mi">El proyecto</a>
@@ -37,7 +37,7 @@
           qué tienen de especial, para quién funcionan y por qué vale la pena darles una oportunidad.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#recomendaciones">Explorar catálogo</a>
+          <a class="button primary" href="#contemporaneas">Explorar 240 películas</a>
           <button class="button ghost" id="surpriseBtn" type="button">🎲 Sorpréndeme</button>
         </div>
         <div class="hero-stats" id="heroStats"></div>
@@ -55,6 +55,64 @@
       <span>✓ Opinión personal</span>
       <span>✓ Recomendaciones rápidas</span>
       <span>✓ Sin listas interminables</span>
+    </section>
+
+
+    <section class="contemporary-section" id="contemporaneas">
+      <div class="contemporary-heading">
+        <div>
+          <span class="eyebrow">CINE CONTEMPORÁNEO · 2000–2026</span>
+          <h2>240 películas que vale la pena tener en el radar.</h2>
+          <p>
+            Una selección dinámica de películas contemporáneas mejor valoradas por usuarios de TMDB.
+            El orden pondera la calificación y el volumen de votos para evitar que títulos con muy pocas
+            valoraciones aparezcan artificialmente arriba.
+          </p>
+        </div>
+        <div class="top-all-summary">
+          <strong>240</strong>
+          <span>Películas de 2000 a 2026, de múltiples países y géneros.</span>
+        </div>
+      </div>
+
+      <div class="contemporary-toolbar">
+        <div class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="contemporarySearch" type="search" placeholder="Buscar película, género o año…" aria-label="Buscar películas contemporáneas">
+        </div>
+        <select id="contemporarySort" aria-label="Ordenar películas contemporáneas">
+          <option value="rank">Mejor valoración ponderada</option>
+          <option value="rating">Mayor calificación TMDB</option>
+          <option value="votes">Más votadas</option>
+          <option value="newest">Más recientes</option>
+        </select>
+      </div>
+
+      <div class="filters contemporary-filters" id="contemporaryFilters">
+        <button class="chip active" type="button" data-cgenre="Todos">Todos</button>
+        <button class="chip" type="button" data-cgenre="Drama">Drama</button>
+        <button class="chip" type="button" data-cgenre="Comedia">Comedia</button>
+        <button class="chip" type="button" data-cgenre="Acción">Acción</button>
+        <button class="chip" type="button" data-cgenre="Ciencia ficción">Ciencia ficción</button>
+        <button class="chip" type="button" data-cgenre="Crimen">Crimen</button>
+        <button class="chip" type="button" data-cgenre="Terror">Terror</button>
+        <button class="chip" type="button" data-cgenre="Animación">Animación</button>
+      </div>
+
+      <div class="contemporary-subhead">
+        <span id="contemporaryCount">Preparando catálogo…</span>
+        <span>48 visibles por bloque</span>
+      </div>
+
+      <div class="contemporary-grid" id="contemporaryGrid"></div>
+      <div class="load-more-wrap">
+        <button class="button ghost" id="contemporaryMore" type="button">Mostrar 48 más</button>
+      </div>
+
+      <div class="tmdb-credit contemporary-credit">
+        <img class="tmdb-logo" src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="TMDB">
+        <span>Calificaciones y metadatos: TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+      </div>
     </section>
 
     <section class="controls" id="recomendaciones">
@@ -173,8 +231,10 @@
   </footer>
 
   <script src="data/recomendaciones.js"></script>
+  <script src="data/contemporary.js"></script>
   <script src="data/top-all-time.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/contemporary.js"></script>
   <script src="js/top-all-time.js"></script>
 </body>
 </html>
