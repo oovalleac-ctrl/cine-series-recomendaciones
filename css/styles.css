@@ -59,3 +59,30 @@ footer{width:min(1180px,92vw);margin:auto;border-top:1px solid var(--line);paddi
 @media(max-width:1050px){.top-all-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.top-all-heading{grid-template-columns:1fr}.top-all-summary{justify-self:start}.top-all-toolbar{grid-template-columns:1fr}.top-all-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:470px){.top-all-grid{gap:10px}.top-card-body{padding:11px}.top-card-body h3{font-size:.9rem}.top-card-body p{font-size:.74rem}.top-all-subhead{font-size:.7rem}}
+
+
+/* CONTEMPORARY MOVIES — V2.5 */
+.contemporary-section{padding:86px 0 92px;border-top:1px solid var(--line)}
+.contemporary-heading{display:grid;grid-template-columns:1.35fr .65fr;gap:54px;align-items:end}
+.contemporary-heading h2{font-size:clamp(2.5rem,5.2vw,4.8rem);line-height:.97;letter-spacing:-.052em;margin:0 0 18px}
+.contemporary-heading p{max-width:780px;color:var(--muted);line-height:1.72;margin:0}
+.contemporary-toolbar{display:grid;grid-template-columns:1fr 230px;gap:12px;margin-top:34px}
+.contemporary-toolbar select{background:var(--panel);color:#fff;border:1px solid var(--line);border-radius:15px;padding:14px 16px;outline:none}
+.contemporary-filters{margin-top:16px}
+.contemporary-subhead{display:flex;justify-content:space-between;gap:16px;margin:22px 0 14px;color:#7e8999;font-size:.78rem}
+.contemporary-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.contemporary-card{overflow:hidden;border:1px solid var(--line);border-radius:17px;background:var(--panel);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.contemporary-card:hover{transform:translateY(-3px);border-color:var(--line-strong);box-shadow:0 14px 34px rgba(0,0,0,.22)}
+.contemporary-poster{position:relative;aspect-ratio:2/3;display:grid;place-items:center;background:linear-gradient(145deg,#18202d,#402033 55%,#5a321e);background-size:cover;background-position:center}
+.contemporary-rank,.contemporary-score{position:absolute;top:10px;padding:6px 8px;border-radius:999px;background:rgba(7,9,13,.84);font-size:.69rem;font-weight:900;backdrop-filter:blur(8px)}
+.contemporary-rank{left:10px}.contemporary-score{right:10px}
+.contemporary-body{padding:13px}
+.contemporary-body h3{font-size:1rem;line-height:1.25;margin:6px 0 8px}
+.contemporary-body p{color:#a9b3c1;font-size:.77rem;line-height:1.45;margin:0 0 10px}
+.contemporary-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#697586;font-size:.66rem}
+.contemporary-source{color:#9fdcf0;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.contemporary-credit{margin-top:28px;padding-top:20px;border-top:1px solid var(--line);color:#7e8999;font-size:.75rem}
+@media(max-width:1120px){.contemporary-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:900px){.contemporary-heading{grid-template-columns:1fr}.contemporary-heading .top-all-summary{justify-self:start}.contemporary-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.contemporary-toolbar{grid-template-columns:1fr}.contemporary-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:470px){.contemporary-grid{gap:10px}.contemporary-body{padding:10px}.contemporary-body h3{font-size:.9rem}.contemporary-body p{font-size:.72rem}.contemporary-foot{font-size:.61rem}}
